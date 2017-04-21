@@ -1,0 +1,61 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td,ins,hr {
+	margin: 0px;
+	padding: 0px;
+}
+.center {
+	margin: 50px auto;
+	width: 220px;
+}
+header {
+	margin-bottom: 22px;
+}
+/* 畅销榜定义 */
+.center header h3 {
+	font-size: 16px;
+	line-height: 16px;
+	color: #000;
+	letter-spacing: 1px;
+}
+/* 定义虚线下边框 */
+.t-foldlist li {
+	border-bottom: #f5f2f0 dotted 1px;
+	list-style: none;
+}
+/* 畅销榜第一条实线 */
+.t-foldlist li:first-child {
+	border-top: #f5f2f0 solid 1px;
+}
+/* 尾部取消下边框 */
+.t-foldlist li:last-child {
+	border-bottom: none;
+}
+/* p定义 */
+.t-foldlist .fold {
+	padding: 0 14px 0 6px;
+	height: 42px;
+	line-height: 42px;
+	overflow: hidden;
+}
+/* 畅销榜a定义 */
+.t-foldlist .fold a {
+	color: #000;
+	font-size: 13.5px;
+	height: 42px;
+	width: 200px;
+	line-height: 42px;
+	text-decoration: none;
+	letter-spacing:0.7px;
+}
+.t-foldlist .fold a:hover {
+	color: #c9483c;
+}
+/* 畅销榜序号定义 */
+.t-foldlist .fold i {
+	margin-right: 14px;
+	font-family: arial;
+	font-style: normal;
+}
+/* 定义前三序号颜色 */
+.t-foldlist .fold .nu-top {
+	color: #c10d0c;
+}
